@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: auto;
+}
+
+body {
+  font-family: Calibri;
+  font-weight: 600;
+  background-color: rgb(0, 20, 70);
+}
+
+header {
+  text-align: center;
+  background-color: rgb(200, 150, 0);
+  padding: 20px 0 10px;
+  color: rgb(0, 20, 70);
+}
+
+header h1 {
+  text-shadow: 4px 4px 5px rgb(0, 0, 0, 0.2);
+  padding: 10px 0;
+}
+
+.diatinf-logo img {
+  position: absolute;
+  top: 18px;
+  left: 5%;
+  width: 12%;
+  margin: 20px 0;
+}
+
+.ifrn-cnat-logo img {
+  position: absolute;
+  top: 18px;
+  right: 5%;
+  width: 15%;
+  margin: 12px 0;
+}
+
+.nav-menu {
+  margin: 15px 0 5px;
+}
+
+.nav-menu a{
+  background-color: rgb(180, 130, 0);
+  box-shadow: 4px 4px 5px rgb(0, 0, 0, 0.2);
+  border-radius: 6px;
+  color: rgb(0, 20, 70);
+  margin: 0 15px;
+  padding: 3px 9px;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  background-color: rgb(200, 140, 0);
+}
+
+#dados-ifrn {
+  width: 75%;
+  margin: 30px auto 0;
+}
+
+.tads-coordenacao {
+  background-color: rgb(200, 150, 0);
+  text-align: left;
+  border-radius: 50px;
+  padding: 15px 40px;
+  color: rgb(0, 5, 50);
+  box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.4);
+}
+
+.tads-coordenacao h2 {
+  font-size: 32px;
+}
+
+.tads-coordenacao h4 {
+  font-weight: 400;
+}
+
+#horizontal-line {
+  margin: 30px auto;
+  background-color:rgb(200, 150, 0);
+  width: 45%;
+  height: 3.5px;
+  border-radius: 5px;
+}
+
+.texto-perfil {
+  text-align: center;
+  color: rgb(200, 150, 0);
+  font-size: 40px;
+  margin: 30px 0 50px;
+}
+
+#perfil-curso {
+  margin: 0px auto;
+  width: 80%;
+  overflow: auto;
+}
+
+#perfil-curso div {
+  color: rgb(200, 150, 0);
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: rgb(0, 5, 50);
+  width: 40%;
+  margin: 0 0 30px;
+}
+
+#perfil-curso div h2 {
+  margin: 10px 0;
+}
+
+#perfil-curso .apresentacao-curso {
+  float: left;
+}
+
+.apresentacao-curso p {
+  padding: 5px 0 15px;
+}
+
+.diferenciais-curso {
+  float: right;
+}
+
+.diferenciais-curso ul li {
+  padding: 5px 0 10px;
+  list-style: none;
+}
+
+.diferenciais-curso li p {
+  text-indent: 20px;
+}
+
+.objetivos-curso {
+  float: left;
+}
+
+.objetivos-curso p {
+  padding: 5px 0 15px;
+}
+
+.texto-atuacao {
+  text-align: center;
+  color: rgb(0, 5, 50);
+  font-size: 40px;
+  padding: 40px 0 20px;
+}
+
+#atuacao {
+  margin: 50px 0 0;
+  background-color: rgb(200, 150, 0);
+}
+
+.pf-fundo {
+  margin: 0 auto;
+  padding: 50px 0 50px;
+  width: 80%;
+  overflow: auto;
+}
+
+.profissoes-curso, .mercado-curso {
+  background-color: rgb(0, 5, 50);
+  color: rgb(200, 150, 0);
+  border-radius: 30px;
+  padding: 0 20px 10px;
+  width: 40%;
+  float: left;
+}
+
+.mercado-curso {
+  margin: 30px 0 0;
+}
+
+.mercado-curso p {
+  text-indent: 20px;
+  padding: 10px;
+}
+
+#atuacao h2 {
+  padding: 20px 0 10px;
+}
+
+#atuacao ul li {
+  list-style: none;
+}
+
+#atuacao li h3 {
+  padding: 0 10px 0;
+}
+
+#atuacao li p{
+  padding: 10px 20px;
+}
+
+.competencias-curso {
+  background-color: rgb(0, 5, 50);
+  color: rgb(200, 150, 0);
+  border-radius: 30px;
+  padding: 0 20px 10px;
+  width: 40%;
+  float: right;
+}
+
+#ficha-tecnica {
+  overflow: auto;
+  color: rgb(0, 5, 50);
+  margin: 50px auto 0;
+  padding: 0 20px 20px;
+  width: 90%;
+}
+
+.ficha-tec-texto {
+  text-align: center;
+  font-size: 48px;
+  color: rgb(180, 130, 0);
+  margin: 50px 0;
+}
+
+.ficha-tec-curso table {
+  width: 50%;
+  background-color: rgb(0, 5, 50);
+  border-radius: 30px;
+  padding: 0 20px 20px;
+  border-collapse: collapse;
+  float: left;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.ficha-tec-curso td {
+  border-bottom: 2px solid rgb(0, 20, 70);
+}
+
+.ficha-tec-curso td h2 {
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin: 20px 15px;
+  background-color:rgb(180, 130, 0);
+}
+
+.ficha-tec-curso td p {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(200, 150, 0);
+  color: rgb(0, 5, 50);
+}
+
+.ficha-tec-botoes {
+  overflow: auto;
+}
+
+.ficha-tec-botoes a {
+  float: right;
+  display: block;
+  text-align: center;
+  background-color: rgb(0, 5, 50);
+  color: rgb(180, 130, 0);
+  width: 80%;
+  margin: 40px 0 0;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 15px 20px;
+}
+
+.ficha-tec-botoes a:hover {
+  background-color: rgb(0, 10, 110);
+}
+
+@media screen and (max-width: 768px) {
+
+  header h1 {
+    padding: 0;
+  }
+
+  .diatinf-logo img {
+    position: relative;
+    left: 0px;
+    width: 20%;
+    margin: 0 40px 20px;
+  }
+  
+  .ifrn-cnat-logo img {
+    position: relative;
+    left: 0px;
+    width: 20%;
+    margin: 0 40px 20px;
+  }
+
+  .nav-menu {
+    margin: 25px 0 10px;
+  }
+
+  .nav-menu a {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+
+  #dados-ifrn, .pf-fundo {
+    width: 90%;
+  }
+
+  #dados-ifrn h2 {
+    font-size: 22px;
+  }
+
+  #dados-ifrn h3 {
+    font-size: 16px;
+  }
+
+  #dados-ifrn h4 {
+    font-size: 12px;
+  }
+
+  #perfil-curso {
+    width: 90%;
+  }
+  
+  #perfil-curso div {
+    margin: 0 0 15px;
+  }
+
+  #perfil-curso .apresentacao-curso {
+    width: auto;
+    float: none;
+  }
+
+  #perfil-curso .diferenciais-curso {
+    width: auto;
+    float: none;
+  }
+
+  #perfil-curso .objetivos-curso {
+    width: auto;
+    float: none;
+  }
+
+  #ficha-tecnica {
+    width: 90%;
+  }
+
+  #ficha-tecnica table {
+    width: auto;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .ficha-tec-botoes a {
+    width: auto;
+    float: none;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+body {
+    font-family: Calibri;
+    text-align: center;
+    background-color: rgb(0, 20, 70);
+    font-weight: 600;
+}
+
+h1 {
+    text-shadow: 4px 4px 5px rgb(0, 0, 0, 0.4);
+    font-size: 40px;
+    color: rgb(180, 130, 0);
+    padding: 35px 0 70px 0;
+}
+
+a {
+    box-shadow: 8px 8px 5px rgb(0, 0, 0, 0.3);
+    color: rgb(0, 20, 70);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(180, 130, 0);
+    border-radius: 10px;
+    font-size: 20px;
+}

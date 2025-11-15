@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+body {
+    font-family: Calibri;
+    color: rgb(0, 20, 70);
+    background-color: rgb(0, 20, 70);
+}
+
+header {
+    background-color: rgb(0, 40, 80);
+    padding: 10px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: rgb(200, 150, 0);
+}
+
+.container h1 {
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+
+.card {
+    font-size: 20px;
+    width: 75%;
+    background-color: rgb(200, 150, 0);
+    margin: 10px auto 40px auto;
+    border-radius: 16px;
+}
+
+.card-header {
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.card-header p {
+    font-style: italic;
+    margin: 10px 0 10px 0;
+}
+
+.card-content {
+    border-bottom: 3px solid rgb(0, 40, 80);
+    padding: 20px 5px 30px 5px;
+    background-color: rgb(180, 130, 0);
+}
+
+.card-content ul{
+    list-style-type: none;
+    padding: 0 40px;
+}
+
+.card-content ul li {
+    margin: 12px 3px;
+    padding: 5px;
+    background-color: rgb(220, 180, 0);
+    border-left: 8px solid darkblue;
+    border-radius: 5px;
+}
+
+.tecnologias li {
+    inline-size: auto;
+    display: inline-block;
+}
+
+ul li:hover {
+    background-color: rgb(230, 200, 0);
+}
+
+.card-content h3 {
+    font-size: 26px;
+    padding: 15px;
+}
+
+.card-content p {
+    text-align: justify;
+    padding: 4px 40px;
+}
+
+.card-footer {
+    border-radius: 0 0 16px 16px;
+}
+
+.card-footer h3 {
+    padding: 15px;
+}
+
+.card-footer p {
+    padding: 4px 30px;
+}
+
+.datas {
+    font-style: italic;
+    font-weight: 800;
+    color: black;
+}
+
+.locais {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 30px;
+        color: rgb(200, 150, 0);
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card-header {
+        padding: 20px;
+    }
+
+    .tecnologias li{
+        display: block;
+        width: fit-content;
+        margin: 12px 0;
+        padding: 5px;
+    }
+
+    .card-footer {
+        font-size: 18px;
+    }
+
+}
